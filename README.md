@@ -1,3 +1,31 @@
+# Makercie instructions
+## Setup
+1. Open Terminal and download this repository:
+```
+git clone https://github.com/fszewczyk/ERC-Remote-Navigation-Sim.git
+```
+
+2. Enter the code directory
+```
+cd ERC-Remote-Navigation-Sim
+```
+
+3. Run setup script
+```
+source ./setup.sh
+```
+
+## Running LEO Simuation
+1. Open Gazebo and rViz
+```
+./run.sh
+```
+
+2. If you want to enable teleop using keyboard, run in a seperate terminal:
+```
+rosrun leo_erc_teleop key_teleop
+```
+
 # ERC Remote Navigation Simulation
 
 This repository provides a Gazebo simulation of the Navigation and Science Task for the ERC Remote competition. \
