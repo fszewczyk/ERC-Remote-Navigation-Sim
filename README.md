@@ -1,4 +1,5 @@
 # Makercie instructions
+_Based on: [these instructions](https://www.leorover.tech/integrations/erc-gazebo#toc-list-of-components)_
 ## Setup
 1. Open Terminal and download this repository:
 ```
