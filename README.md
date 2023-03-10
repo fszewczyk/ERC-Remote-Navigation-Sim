@@ -19,7 +19,7 @@ source ./setup.sh
 ## Running LEO Simuation
 1. Open Gazebo and rViz
 ```
-./run.sh
+source ./run.sh
 ```
 
 2. If you want to enable teleop using keyboard, run in a seperate terminal:
