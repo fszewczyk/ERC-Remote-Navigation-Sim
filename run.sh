@@ -1,3 +1,6 @@
+catkin config --extend /opt/ros/${ROS_DISTRO}
+catkin build
+
 source devel/setup.bash
 
 launch_gazebo()
@@ -10,6 +13,5 @@ launch_rviz(){
 }
 
 launch_gazebo & 
-launch_rviz &
 
 wait
